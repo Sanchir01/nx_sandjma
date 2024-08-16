@@ -1,0 +1,12 @@
+[submodule "app/products"]
+	path = app/products
+	url = https://github.com/Sanchir01/microservice_sandjma_products.git
+[submodule "app/category"]
+	path = app/category
+	url = https://github.com/Sanchir01/microservice_sandjma_category.git
+[submodule "app/gateway"]
+	path = app/gateway
+	url = https://github.com/Sanchir01/sandjma_graphql.git
+[submodule "app/auth"]
+	path = app/auth
+	url = https://github.com/Sanchir01/microservice.git
