@@ -1,8 +1,13 @@
 {
-  "name": "@monorepo-sandjma/source",
-  "version": "0.0.0",
+  "name": "@go-workspace/source",
+  "version": "0.0.0.1",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "auth": "pnpm nx run sandjma_auth:serve",
+    "category": "pnpm nx run sandjma_category:serve",
+    "gateway": "pnpm nx run gateway:serve",
+    "back": "pnpm nx run-many --target=serve --all --parallel"
+  },
   "private": true,
   "dependencies": {
     "@nx-go/nx-go": "3.2.0"
