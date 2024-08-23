@@ -1,7 +1,7 @@
 go 1.22.6
 use (
-	app/category
-	app/gateway
-	app/products
-	app/auth
+	./app/auth
+	./app/category
+	./app/gateway
+	./app/products
 )

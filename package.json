@@ -6,7 +6,8 @@
     "auth": "pnpm nx run sandjma_auth:serve",
     "category": "pnpm nx run sandjma_category:serve",
     "gateway": "pnpm nx run gateway:serve",
-    "back": "pnpm nx run-many --target=serve --all --parallel"
+    "products": "pnpm nx run sandjma_products:serve",
+    "back": "nx run-many --target=serve --all --parallel"
   },
   "private": true,
   "dependencies": {
