@@ -3,11 +3,16 @@
   "version": "0.0.0.1",
   "license": "MIT",
   "scripts": {
-    "auth": "pnpm nx run sandjma_auth:serve",
-    "category": "pnpm nx run sandjma_category:serve",
-    "gateway": "pnpm nx run gateway:serve",
-    "products": "pnpm nx run sandjma_products:serve",
-    "back": "nx run-many --target=serve --all --parallel"
+    "auth:start": "pnpm nx run sandjma_auth:serve",
+    "category:start": "pnpm nx run sandjma_category:serve",
+    "gateway:start": "pnpm nx run gateway:serve",
+    "products:start": "pnpm nx run sandjma_products:serve",
+    "auth:dev": "pnpm nx run sandjma_auth:dev",
+    "category:dev": "pnpm nx run sandjma_category:dev",
+    "gateway:dev": "pnpm nx run gateway:dev",
+    "products:dev": "pnpm nx run sandjma_products:dev",
+    "back": "nx run-many --target=serve --all --parallel",
+    "back:dev": "nx run-many --target=dev --all --parallel"
   },
   "private": true,
   "dependencies": {
